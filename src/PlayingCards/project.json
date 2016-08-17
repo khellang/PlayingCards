@@ -1,0 +1,38 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "authors": [ "Kristian Hellang" ],
+  "copyright": "Copyright © Kristian Hellang 2016",
+  "description": "A tiny library with primitive types for building card games, like Suit, Rank, Card and Deck.",
+
+  "buildOptions": {
+    "warningsAsErrors": true,
+    "nowarn": [ "CS1591" ],
+    "xmlDoc": true
+  },
+
+  "packOptions": {
+    "owners": [ "khellang" ],
+    "requireLicenseAcceptance": false,
+    "tags": [ "playing", "cards", "card", "game" ],
+    "projectUrl": "https://github.com/khellang/PlayingCards",
+    "iconUrl": "https://raw.githubusercontent.com/khellang/PlayingCards/master/etc/noun_15602_cc.png",
+    "licenseUrl": "https://raw.githubusercontent.com/khellang/PlayingCards/master/LICENSE",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/khellang/PlayingCards"
+    }
+  },
+
+  "frameworks": {
+    "net45": { },
+    "netstandard1.0": {
+      "dependencies": {
+        "System.Collections": "4.0.11",
+        "System.Diagnostics.Debug": "4.0.11",
+        "System.Runtime.Extensions": "4.1.0",
+        "System.Threading": "4.0.11"
+      }
+    }
+  }
+}
